@@ -1,13 +1,106 @@
-body {
-   margin: 0;
-}
-h1 {
-   color: red;
+
+body{
+    width: 100vw;
 }
 
-.front-bg {
-	background-image: url(../img/front-bg.jpg);
-	background-size: cover;
-	height: 100vh;
-	padding: 50px;
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  html {
+    overflow-y: scroll;
+  }
+  
+  p, li, dt, dl {
+    line-height: 1.6;
+  }
+  
+  p {
+    margin: 0 0 1em 0;
+    font-size: 1.8vw;
+  }
+  
+  img {
+    border: 0;
+  }
+
+header ul{
+    display: flex;
+    margin: auto;
 }
+
+header ul li{
+    list-style: none;
+    margin: auto;
+    padding: 3vh;
+}
+
+header a{
+    color: #5c821a;
+}
+
+
+#background {
+	position: relative;
+	width: 600px;
+	height: 476px;
+	border-bottom: 10px solid #090;
+	margin: 0 auto; }
+#flower {
+	position: absolute;
+	top: 20px;
+	left: 172px;
+	width: 256px; }
+.petal {
+	background-color: #c6d166;
+	float: left;
+	margin: 1px 1px 0 0;
+	width: 125px;
+	height: 125px;		
+	border-radius: 20px;
+	border-radius: 20px; }
+#topleft {
+	-moz-border-radius-bottomright: 0;
+	border-bottom-right-radius: 0;
+	border-bottom: 2px solid #5c821a;
+	border-right: 2px solid #5c821a; }
+#topright {
+	-moz-border-radius-bottomleft: 0;
+	border-bottom-left-radius: 0;
+	border-bottom: 2px solid #5c821a;
+	border-left: 2px solid #5c821a;  }
+#bottomleft {
+	-moz-border-radius-topright: 0;
+	border-top-right-radius: 0;
+	border-top: 2px solid #5c821a;
+	border-right: 2px solid #5c821a; }
+#bottomright {
+	-moz-border-radius-topleft: 0;
+	border-top-left-radius: 0;
+	border-top: 2px solid #5c821a;
+    border-left: 2px solid #5c821a; }
+    
+    .leaf {
+        float: left; 
+        margin-top: 170px; 
+        background-color: #093;
+        width: 60px;
+        height: 30px; }
+    #leftleaf {
+        clear: left;
+        margin-left: 65px;
+        -moz-border-radius-bottomleft: 30px;
+        border-bottom-left-radius: 30px;
+        -moz-border-radius-topright: 30px;
+        border-top-right-radius: 30px; }
+    #rightleaf {
+        -moz-border-radius-bottomright: 30px;
+        border-bottom-right-radius: 30px;
+        -moz-border-radius-topleft: 30px;
+        border-top-left-radius: 30px; }
+
